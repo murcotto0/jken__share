@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>疑似言語トレース学習ツール</title>
+    <link rel="stylesheet" href="memy_3.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <nav><h5>mokuji_T_P14</h5><ul><li>基本スキル</li><li>PGスキル</li><li>Sysデザイン</li></ul></nav>
+        <div id="FundaSummary">
+            <p>■ 基本スキル|
+                <ul>
+                    <li>【対象】ソフトウェアの開発を目指す人．</li>
+                    <li>【評価内容】ソフトウェア開発における技法やプロマネ<br>／情報の表現・ハード・ソフトに関する基礎的知識</li>
+                    <!-- <li></li> -->
+                </ul>
+                <h2>【 プロマネ 】システム開発におけるPJ管理について理解する．</h2>
+                <ul><b>概要</b>
+                    <li>プロジェクトマネジメントの5つのプロセス群と9つの知識エリア</li>
+                    <li>業務プロセス</li>
+                    <li>ソリューションビジネス</li>
+                    <li>システム活用促進一評価</li>
+                    <li>ステークホルダ</li>
+                    <li>ＳＬＡ</li>
+                    <li>インシデント管理</li>
+                    <li>RFC</li>
+                    <li>ソリューションビジネス</li>
+                </ul>
+                <ul><b>プロジェクトの進捗・コスト管理</b>
+                    <li>ガントチヤート</li>
+                    <li>ファンクションポイント</li>
+                    <li>ＷＢＳ</li>
+                    <li>ＰＡＲＴ</li>
+                    <li>ＥＶＭ</li>
+                    <li>ベンチマークＵＰＳ</li>
+                    <li>施設管理</li>
+                </ul>
+                <h2>【 情報表現 】数値およびデータの表現、<br>情報の基礎理論について理解する．</h2>
+                <ul><b>数値表現とデータ表現の種類</b>
+                    <!-- <li></li> -->
+                    <li>基数と基数変換</li>
+                    <li>数値表現とデータ表現の種類</li>
+                    <li>データの表硯単位</li>
+                    <li>補助単位とべき乗表現</li>
+
+
+                </ul>
+
+                <a href="https://jken.sgec.or.jp/common/pdf/past_test/240908_mondaijs01.pdf">
+                    <b>過去問【公式】公開R6‗0908→ 令和６年度前期 情報検定 ＜実施 令和6年9月8日（日）＞</b></a>
+                <ul class="sampleR60908">
+                    <b>Q1.PERT</b>
+                    <li>Q1.PERT_setsu1</li>
+                        <li>_setsu1_1</li>
+                        <li>_setsu1_2</li>
+                        <li>_setsu1_3</li>
+                        <li>_setsu1_4</li>
+                    <li>Q1.PERT_setsu2</li>
+                        <li>_setsu1_5</li>
+                        <li>_setsu1_6</li>
+                        <li>_setsu1_7</li>
+                        <!-- <li>_setsu1_8</li> -->
+                    <b>Q2.データ圧縮</b>
+                    <li>Q2.データ圧縮_setsu1</li>
+                        <li>_setsu1_1</li>
+                        <li>_setsu1_2</li>
+                        <li>_setsu1_3</li>
+                        <li>_setsu1_4</li>
+                        <li>_setsu1_5</li>
+                    <li>Q2.データ圧縮_setsu2</li>
+                        <li>_setsu1_6</li>
+                        <li>_setsu1_7</li>
+                        <li>_setsu1_8</li>
+                        <li>_setsu1_9</li>
+                    <li>Q3.リスト構造</li>
+                    
+                    
+                    <!-- <li></li> -->
+                </ul>
+ 
+             <br>   
+            <br>
+            <br><br>
+            <br><br><br>
+            <br><br><br><br>
+            
+            
+            </p>
+        </div>
+        <div id="PM_4shou_p34">
+            <ul><li>定義：<span class="word1">ある期間の中で、独自の製品やサービスをつくりだすために実施される業務</span></li>
+                <li>ステークホルダ：以下６</li>
+                <li>プロジェクトマネージャ：<span class="word1">PJを目標通り達成する責任を持つ，第一の利害関係者．</span></li>
+                <li>顧客・ユーザ：<span class="word1">PJの目標設定のカギになる組織・人．多くは青果物を受け入れた後に所定の金額を支払う立場．</span></li>
+                <li>母体組織：<span class="word1">PJの目標設定のカギになる組織・人．多くは青果物を受け入れた後に所定の金額を支払う立場．</span></li>
+                            
+            </ul>
+            <p>
+                PM:5つのプロセス群と9つの知識エリア
+            </p>
+        </div>
+
+    
+        <h1>疑似言語トレース学習ツール</h1>
+        <div id="rewardSetup">
+            <label for="rewardInput">達成したら自分にご褒美を設定:</label>
+            <input type="text" id="rewardInput" placeholder="例: ケーキを食べる">
+            <button id="startQuiz">スタート</button>
+        </div>
+
+        <div id="quizContainer" style="display: none;">
+            <div class="columns">                
+                <div class="column">
+                    <h2>フローチャートと問題文</h2>
+                    <div id="flowchart">
+                        <p>1. x0x<span class="question" id="step1">変数xを初期化</span></p>
+                        <p>2. a1a = <input type="text" class="input-answer" id="input1" size="5"> + 1</p>
+                        <p>3. b2b = <input type="text" class="input-answer" id="input2" size="5"> + 1</p>
+                        <p>4. c3c = <input type="text" class="input-answer" id="input3" size="5"> + 1</p>
+                        <p>5. d4d = <input type="text" class="input-answer" id="input4" size="5"> + 1</p>
+                        <p>6. e5e = <input type="text" class="input-answer" id="input5" size="5"> + 1</p>
+                        <p>7. f6f = <input type="text" class="input-answer" id="input6" size="5"> + 1</p>
+                        <p>8. g7g = <input type="text" class="input-answer" id="input7" size="5"> + 1</p>
+                        <p>9. h9h = <input type="text" class="input-answer" id="input8" size="5"> + 1</p>
+                        <p>10. i10i = <input type="text" class="input-answer" id="input9" size="5"> + 1</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>トレース表</h2>
+                    <table border="1" id="traceTable">
+                        <thead>
+                            <tr>
+                                <th>ステップ</th>
+                                <th>変数xの値</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>初期値</td>
+                                <td id="valueX">-</td>
+                            </tr>
+                            <tr>
+                                <td>加算後</td>
+                                <td id="finalValueX">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <button id="submitAnswer">解答を提出</button>
+        </div>
+
+        <div id="resultContainer" style="display: none;">
+            <h2>結果</h2>
+            <p id="scoreOutput"></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script_2.js"></script>
+</body>
+</html>

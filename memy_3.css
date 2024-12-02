@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+section {
+    margin-bottom: 2rem;
+}
+.column {
+    width: 50%;
+    float: left;
+}
+/* メディアクエリでレスポンシブ対応 最下部↓　*/
+
+
+#mainContainer {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .column {
+    width: 48%;
+} */
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.question {
+    font-weight: bold;
+    color: red;
+}
+
+ /* メディアクエリでレスポンシブ対応 */
+@media (max-width: 768px) {
+    .column {
+        width: 100%;
+    }
+}
